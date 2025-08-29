@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+}
+
+.conteiner-image {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; 
+}
+
+.image-slider {
+    height: 400px;
+    width: auto;
+    padding-left: 173.5px;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.left , .right {
+    height: 60px;
+    width: 60px;
+    color: white;
+    border: 1px rgb(77, 77, 77) solid;
+    background-color:rgb(52, 52, 52);
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    user-select: none;
+}
+
+.image {
+    height: 400px;
+    width: 600px;
+    border: 1px rgb(77, 77, 77) solid;
+    background-color:rgb(52, 52, 52);
+    border-radius: 3px;
+}
+
+.conteiner-instruments {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.global-left , .global-right, .auto , .random {
+    height: 60px;
+    width: 60px;
+    color: white;
+    border: 1px rgb(132, 132, 132) solid;
+    background-color:rgb(122, 122, 122);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    user-select: none;
+}
+
+.left:hover , .right:hover {
+    border: 1px rgb(77, 77, 77) solid;
+    background-color:rgb(125, 125, 125);
+}
+
+
+.left:active , .right:active {
+    animation-duration: 0.3s;
+    animation-name: slideout;
+}
+
+.global-left:hover , .global-right:hover , .auto:hover , .random:hover {
+    border: 1px rgb(180, 180, 180) solid;
+    background-color:rgb(148, 148, 148);
+}
+
+.global-left:active , .global-right:active , .auto:active , .random:active {
+    animation-duration: 0.5s;
+    animation-name: slideout;
+}
+
+@keyframes slideout {
+  from {
+    width: 50px;
+    height: 50px;
+  }
+
+  to {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+  }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+}

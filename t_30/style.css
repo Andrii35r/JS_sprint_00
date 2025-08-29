@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+    background-color: rgb(23, 0, 77);
+    margin: 175px;
+}
+
+.photo-list {
+    height: 6500px;
+    width: 750px;
+    background-color: rgb(193, 214, 215);
+    border: 1px rgb(193, 214, 215) solid;
+}

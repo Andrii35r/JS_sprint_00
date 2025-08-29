@@ -1,0 +1,37 @@
+.table {
+    height: 500px;
+    width: 360px;
+    border: 4px rgb(0, 0, 0) solid;
+    justify-self: center;
+}
+
+.top-table-name, .top-table-strenght, .top-table-age {
+    height: 49px;
+    width: 119px;
+    background-color: rgb(216, 0, 0);
+    text-align: center;
+}
+
+.bottom-table-name , .bottom-table-strenght, .bottom-table-age {
+    height: 49px;
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+}
+
+
+.default-button {
+    height: 40px;
+    width: 40px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: 20px;
+    position: relative;
+    left: 900px;
+}
+
+.default-button-img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    padding: 8px;
+}
