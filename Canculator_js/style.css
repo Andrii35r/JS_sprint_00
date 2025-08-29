@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Teko:wght@300..700&display=swap');
+
+body {
+    height: 100em;
+    width: auto;
+    background-image: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/104079015/original/8efd840137d304f5d73329a74dc4635d1fb1eaac/solve-math-problems-any-time.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+button {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+p {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.body-canculator {
+    height: 500px;
+    width: 420px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px #3b3b3b solid;
+    margin: auto;   
+    margin-top: 100px;
+}
+
+.line {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.screen {
+    height: 60px;
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 20px;
+}
+
+.screen-text {
+    height: 30px;
+    width: 380px;
+    text-indent: 10px;
+    text-align: right;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    outline: none;
+    caret-color: transparent;
+    padding: 0px;
+    letter-spacing: 5px;
+}
+
+
+
+.screen-example-text {
+    height: 20px;
+    width: 252px;
+    text-align: right;
+    font-family: "Share Tech Mono", monospace;
+    color: #9d9d9d;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    caret-color: transparent;
+    margin-left: 120px;
+
+}
+
+.backspace-button {
+    height: 60px;
+    width: 80px;
+    background-color: #ff0000;
+    img {
+        height: 100%;
+    }
+}
+
+.reset-button {
+    height: 60px;
+    width: 280px;
+    background-color: #fbff00;
+}
+
+.number-button {
+    height: 60px;
+    width: 60px;
+    background-color: #e2e2e2;
+}
+
+.separator-symbols-button {
+    height: 60px;
+    width: 60px;
+    background-color: #ffd000;
+}
+
+.dot-symbol-button {
+    height: 60px;
+    width: 60px;
+    background-color: #ffd000;
+}
+
+.p-symbol-button {
+    height: 60px;
+    width: 60px;
+    background-color: #ffd000;
+}
+
+.symbols-button {
+    height: 60px;
+    width: 60px;
+    background-color: #ffd000;
+}
+
+.equals-button {
+    height: 60px;
+    width: 140px;
+    background-color: #b2b2b2;
+}
+
+.backspace-button:hover  {
+    background-color: #ff4343;
+}
+
+.reset-button:hover  {
+    background-color: #e9ff5a;
+}
+
+.number-button:hover  {
+    background-color: #ffffff;
+}
+
+.dot-symbol-button:hover  {
+    background-color: #ffc550;
+}
+
+.separator-symbols-button:hover  {
+    background-color: #ffc550;
+}
+
+.p-symbol-button:hover  {
+    background-color: #ffc550;
+}
+
+.symbols-button:hover  {
+    background-color: #ffc550;
+}
+
+.equals-button:hover {
+    background-color: #cacaca;
+}
