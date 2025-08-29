@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+img {
+    width: 250px;
+    height: 180px;
+}
+
+button {
+    width: 250px;
+    height: 38px;
+    background-color: rgb(243, 243, 207);
+    margin-top: 10px;
+}
+
+p {
+    height: 18px;
+    width: 250px;
+    margin: 12px;
+}
+
+.heroes {
+    width: 250px;
+    height: 350px;
+    border: 1px black solid;
+    margin: 30px;
+    background-color: beige;
+}
